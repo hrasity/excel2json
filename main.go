@@ -38,9 +38,6 @@ func main() {
 		new_array := []string{}
 		//fmt.Println("-----------")
 		for title := range titles {
-			//line := fmt.Sprintf("%s:%s", titles[title], rows[j][title])
-			//d.title = titles[title]
-			//d.datas = rows[j][title]
 			new_array = append(new_array, titles[title])
 			new_array = append(new_array, rows[j][title])
 		}
