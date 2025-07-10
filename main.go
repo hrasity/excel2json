@@ -11,7 +11,7 @@ import (
 var titles = []string{}
 
 func main() {
-
+	fmt.Println("test")
 	f, err := excelize.OpenFile("test.xlsx")
 	if err != nil {
 		fmt.Println(err)
